@@ -46,7 +46,6 @@ function showPage(currentPage){//fuction to filter the student, show/hide
   //I did not success to reach the anker through li, trasversal...
 
   pagination.addEventListener("click",(e) => { //putting an click event on the pagination class.
-    console.log(e.target.tagName)
     let i = e.target.textContent; // getting just the number of the page. e for even where it occurs and it is an anker element.
     if( e.target.tagName == "A" ){ //to eliminat any click outside the  Ancker,
       for(let x = 0 ; x < anker.length; x++){
