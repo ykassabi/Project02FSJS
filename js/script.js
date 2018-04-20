@@ -1,4 +1,4 @@
-//Hello, all the code is in Vanilla JS
+//Hello, all the code is in Vanilla JS, I think in this project the principale of Unobtrusive is respected because in case the JS is not supported the user still can see the full list of students.
 const students = document.getElementsByClassName("student-item");//like an array 'li' of all the students
 const pagination = document.querySelector(".pagination");//  // determine how many pages for this student list
 let numberOfPages = Math.ceil(students.length/10);
